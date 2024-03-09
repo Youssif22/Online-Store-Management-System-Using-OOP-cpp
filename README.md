@@ -1,7 +1,7 @@
 # Online-Store-Management-System-Using-OOP-cpp
 This C++ code implements a simple online store management system with two classes: Item and seller. The system allows sellers to add, sell, display, and search for items by their serial ID. Users can interact with the system through a menu-driven interface in the console.
 
-#Item Class
+## Item Class
 The Item class represents a store item with attributes such as price, quantity, ID, and name. Key features include:
 
 - Encapsulation: Private attributes (price, quantity, ID, name, and IDNUM) are encapsulated within the class, and access is controlled through public member functions.
@@ -12,7 +12,7 @@ The Item class represents a store item with attributes such as price, quantity, 
 
 - Static Member: The static member IDNUM serves as the serial ID number for items and increments with each new item creation.
 
-#Seller Class
+## Seller Class
 The seller class represents a seller managing a collection of items. Key features include:
 
 - Encapsulation: Private attributes (items, maxitems, email, and name) are encapsulated within the class, and access is controlled through public member functions.
@@ -27,5 +27,5 @@ The seller class represents a seller managing a collection of items. Key feature
 
 - Destructor: A destructor is implemented to release the dynamically allocated memory.
 
-#User Interaction (main function)
+## User Interaction (main function)
 The main function serves as the user interface, prompting users to input their information and interact with the online store system through a menu. The menu options include printing seller information, adding items, selling items, displaying items, finding items by ID, and exiting the program.
